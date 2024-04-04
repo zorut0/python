@@ -1,0 +1,11 @@
+d=int(input('Enter a valid date: '))
+m=int(input('Enter a valid month: '))
+y=int(input('Enter year: '))
+if(y%4==0):
+    y=y+4
+    print('Is a leap year,Next Anniversary: ')
+    print(d,m,y,sep='/')
+else:
+    y=y-1
+    print('Is not a leap year,previous Anniversary: ')
+    print(d,m,y,sep='/')
