@@ -1,0 +1,4 @@
+pur=int(input('Enter purchase amount: '))
+if(pur>=2000):
+    pur=pur-500
+print(pur)
