@@ -1,0 +1,12 @@
+n=int(input('enter the number: '))
+t1=0
+t2=1
+next=t1+t2
+print('fibonacci series is : ')
+print(t1,t2,end=' ')
+while(n!=2):
+    print(next,end=' ')
+    t1=t2
+    t2=next
+    next=t1+t2
+    n=n-1
