@@ -1,0 +1,8 @@
+def string(x):
+    y='Python is '
+    z=y+x
+    n=len(z)
+    for i in range(0,n):
+        print(z[i],end='')
+x='awesome'
+string(x)
