@@ -1,0 +1,13 @@
+def add(n,n1,n2,n3,n4):
+    c=n+n1+n2+n3+n4
+    return c
+def avg(a):
+    d=a/5
+    return d
+n=5
+n1=10
+n2=4
+n3=6
+n4=9
+print('sum: ',add(n,n1,n2,n3,n4))
+print('avg: ',avg(add(n,n1,n2,n3,n4)))
